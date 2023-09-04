@@ -3,23 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment Solution for Module 2</title>
+    <style>
+    *{box-sizing: border-box;
+    font-family: Helvetica}
+      h1{text-align: center;
+      position: relative;
+      }
+      section{border: 1px solid black;
+      background-color: gray;
+      margin-bottom: 30px;
+      padding: 10px}
+      h2{border: 1px solid black;
+      text-align: right}
+      h2.pink{color: black;
+      background-color: pink}
+      h2.red{color: white;
+      background-color: red}
+      h2.yellow{color: black;
+      background-color: yellow}
+      
+      @media (min-width: 992px){
+      #s1{width: 33.33%;
+      float: left}
+      #s2{width: 33.33%;
+      float:left}
+      #s3{width: 33.33%;
+      float: left}
+      }
+      
+      @media (min-width: 768px) and (max-width: 991px){
+      #s1{width: 50%;
+      float: left}
+      #s2{width: 50%;
+      float:left}
+      #s3{width: 100%;
+      float: left}
+      }
+      
+      @media (max-width: 767px){
+      #s1{width: 100%;
+      float: left}
+      #s2{width: 100%;
+      float:left}
+      #s3{width: 100%;
+      float: left}
+      }
+
+      
+    </style>
   </head>
   <body>
     <h1>Our menu</h1>
-    <section>
-      <h2>Chicken</h2>
+    <section id="s1">
+      <h2 class="pink">Chicken</h2>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper ligula mauris, sed porta erat interdum in. Donec libero purus, tristique non iaculis eu, semper id est. Nunc laoreet neque in nibh tincidunt faucibus. Nullam condimentum nulla ac mauris congue lacinia. Nam tempor sit amet purus at consectetur. Quisque dapibus placerat iaculis. Nunc blandit a quam vitae scelerisque. Sed condimentum maximus aliquam. Aenean vitae neque sed est fermentum sodales id rhoncus ex. Nulla mollis magna at tellus laoreet bibendum. Maecenas vulputate, mauris pharetra porttitor semper, dui erat lobortis ante, molestie commodo magna ante nec libero.
       </p>
       </section>
-    <section>
-      <h2>Beef</h2>
+    <section id="s2">
+      <h2 class="red">Beef</h2>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper ligula mauris, sed porta erat interdum in. Donec libero purus, tristique non iaculis eu, semper id est. Nunc laoreet neque in nibh tincidunt faucibus. Nullam condimentum nulla ac mauris congue lacinia. Nam tempor sit amet purus at consectetur. Quisque dapibus placerat iaculis. Nunc blandit a quam vitae scelerisque. Sed condimentum maximus aliquam. Aenean vitae neque sed est fermentum sodales id rhoncus ex. Nulla mollis magna at tellus laoreet bibendum. Maecenas vulputate, mauris pharetra porttitor semper, dui erat lobortis ante, molestie commodo magna ante nec libero.
       </p>
     </section>
-    <section>
-      <h2>Sushi</h2>
+    <section id="s3">
+      <h2 class="yellow">Sushi</h2>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper ligula mauris, sed porta erat interdum in. Donec libero purus, tristique non iaculis eu, semper id est. Nunc laoreet neque in nibh tincidunt faucibus. Nullam condimentum nulla ac mauris congue lacinia. Nam tempor sit amet purus at consectetur. Quisque dapibus placerat iaculis. Nunc blandit a quam vitae scelerisque. Sed condimentum maximus aliquam. Aenean vitae neque sed est fermentum sodales id rhoncus ex. Nulla mollis magna at tellus laoreet bibendum. Maecenas vulputate, mauris pharetra porttitor semper, dui erat lobortis ante, molestie commodo magna ante nec libero.
       </p>
